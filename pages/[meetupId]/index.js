@@ -7,14 +7,14 @@ function MeetupDetails(props) {
   return (
     <Fragment>
       <Head>
-        <title>{props.meetupData.title}</title>
-        <meta name="description" content={props.meetupData.description} />
+        <title>{props.title}</title>
+        <meta name="description" content={props.description} />
       </Head>
       <MeetupDetail
-        image={props.meetupData.image}
-        title={props.meetupData.title}
-        address={props.meetupData.address}
-        description={props.meetupData.description}
+        image={props.image}
+        title={props.title}
+        address={props.address}
+        description={props.description}
       />
     </Fragment>
   );
